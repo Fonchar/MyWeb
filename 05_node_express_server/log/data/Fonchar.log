@@ -1,0 +1,776 @@
+[2020-08-16T03:28:43.286] [INFO] Fonchar - FFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[2020-08-16T03:28:43.291] [DEBUG] Fonchar - debug FFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+[2020-08-16T03:44:40.851] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T03:45:50.902] [DEBUG] Fonchar - Http listening port: 4000
+[2020-08-16T03:45:50.905] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T03:45:50.906] [WARN] Fonchar - Http listening port: 4000
+[2020-08-16T03:45:50.906] [ERROR] Fonchar - Http listening port: 4000
+[2020-08-16T03:45:50.906] [FATAL] Fonchar - Http listening port: 4000
+[2020-08-16T03:47:33.503] [WARN] Fonchar - Http listening port: 4000
+[2020-08-16T03:59:39.347] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T04:04:25.608] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:10:21.259] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:11:21.917] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:13:33.083] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:13:37.307] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:15:17.198] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:15:24.307] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:18:04.045] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:18:24.598] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:18:26.534] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:18:28.422] [INFO] Fonchar - rate limit remaining 18/20 ::1
+[2020-08-16T05:18:29.304] [INFO] Fonchar - rate limit remaining 17/20 ::1
+[2020-08-16T05:18:43.452] [INFO] Fonchar - rate limit remaining 16/20 ::1
+[2020-08-16T05:21:32.932] [WARN] Fonchar - [Function: app] EventEmitter {
+  _events: [Object: null prototype] { mount: [Function: onmount] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  setMaxListeners: [Function: setMaxListeners],
+  getMaxListeners: [Function: getMaxListeners],
+  emit: [Function: emit],
+  addListener: [Function: addListener],
+  on: [Function: addListener],
+  prependListener: [Function: prependListener],
+  once: [Function: once],
+  prependOnceListener: [Function: prependOnceListener],
+  removeListener: [Function: removeListener],
+  off: [Function: removeListener],
+  removeAllListeners: [Function: removeAllListeners],
+  listeners: [Function: listeners],
+  rawListeners: [Function: rawListeners],
+  listenerCount: [Function: listenerCount],
+  eventNames: [Function: eventNames],
+  init: [Function: init],
+  defaultConfiguration: [Function: defaultConfiguration],
+  lazyrouter: [Function: lazyrouter],
+  handle: [Function: handle],
+  use: [Function: use],
+  route: [Function: route],
+  engine: [Function: engine],
+  param: [Function: param],
+  set: [Function: set],
+  path: [Function: path],
+  enabled: [Function: enabled],
+  disabled: [Function: disabled],
+  enable: [Function: enable],
+  disable: [Function: disable],
+  acl: [Function],
+  bind: [Function],
+  checkout: [Function],
+  connect: [Function],
+  copy: [Function],
+  delete: [Function],
+  get: [Function],
+  head: [Function],
+  link: [Function],
+  lock: [Function],
+  'm-search': [Function],
+  merge: [Function],
+  mkactivity: [Function],
+  mkcalendar: [Function],
+  mkcol: [Function],
+  move: [Function],
+  notify: [Function],
+  options: [Function],
+  patch: [Function],
+  post: [Function],
+  propfind: [Function],
+  proppatch: [Function],
+  purge: [Function],
+  put: [Function],
+  rebind: [Function],
+  report: [Function],
+  search: [Function],
+  source: [Function],
+  subscribe: [Function],
+  trace: [Function],
+  unbind: [Function],
+  unlink: [Function],
+  unlock: [Function],
+  unsubscribe: [Function],
+  all: [Function: all],
+  del: [Function],
+  render: [Function: render],
+  listen: [Function: listen],
+  request: IncomingMessage { app: [Circular] },
+  response: ServerResponse { app: [Circular] },
+  cache: {},
+  engines: { '.html': [Function] },
+  settings: {
+    'x-powered-by': true,
+    etag: 'weak',
+    'etag fn': [Function: generateETag],
+    env: 'development',
+    'query parser': 'extended',
+    'query parser fn': [Function: parseExtendedQueryString],
+    'subdomain offset': 2,
+    'trust proxy': false,
+    'trust proxy fn': [Function: trustNone],
+    view: [Function: View],
+    views: 'D:\\ProjectsMe\\04_MyTest\\node_express_server\\views',
+    'jsonp callback name': 'callback',
+    'view engine': 'html'
+  },
+  locals: [Object: null prototype] {
+    settings: {
+      'x-powered-by': true,
+      etag: 'weak',
+      'etag fn': [Function: generateETag],
+      env: 'development',
+      'query parser': 'extended',
+      'query parser fn': [Function: parseExtendedQueryString],
+      'subdomain offset': 2,
+      'trust proxy': false,
+      'trust proxy fn': [Function: trustNone],
+      view: [Function: View],
+      views: 'D:\\ProjectsMe\\04_MyTest\\node_express_server\\views',
+      'jsonp callback name': 'callback',
+      'view engine': 'html'
+    }
+  },
+  mountpath: '/',
+  _router: [Function: router] {
+    params: {},
+    _params: [],
+    caseSensitive: false,
+    mergeParams: undefined,
+    strict: false,
+    stack: [
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer], [Layer],
+      [Layer], [Layer]
+    ]
+  }
+}
+[2020-08-16T05:21:32.950] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:22:03.476] [WARN] Fonchar - undefined
+[2020-08-16T05:22:03.485] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:25:31.598] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:25:36.167] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:25:46.706] [INFO] Fonchar - rate limit remaining 18/20 ::1
+[2020-08-16T05:26:34.667] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:26:39.388] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:26:39.408] [INFO] Fonchar - rate limit remaining 18/20 ::1
+[2020-08-16T05:26:44.934] [INFO] Fonchar - rate limit remaining 17/20 ::1
+[2020-08-16T05:26:44.946] [INFO] Fonchar - rate limit remaining 16/20 ::1
+[2020-08-16T05:28:53.708] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:29:05.040] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:29:05.059] [INFO] Fonchar - rate limit remaining 18/20 ::1
+[2020-08-16T05:30:51.780] [INFO] Fonchar - Http listening port: 4000
+[2020-08-16T05:30:59.137] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:30:59.155] [INFO] Fonchar - rate limit remaining 18/20 ::1
+[2020-08-16T05:31:32.653] [INFO] Fonchar - rate limit remaining 19/20 ::1
+[2020-08-16T05:31:32.660] [INFO] Fonchar - rate limit remaining 18/20 ::1
+[2020-08-16T05:32:17.135] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T14:27:52.945] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T14:28:20.644] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T14:31:22.053] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T14:59:40.342] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T15:05:22.771] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T15:23:28.976] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T15:25:40.267] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T15:48:09.312] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T15:50:36.522] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T15:52:42.721] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T16:14:35.548] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T16:24:19.902] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T16:29:17.285] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T16:32:08.538] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T16:32:14.220] [WARN] Fonchar - socketReq------------------ { username: 'adminsss', password: '123123' }
+[2020-08-17T16:33:39.755] [INFO] Fonchar - Http listening port: 4000
+[2020-08-17T16:33:53.472] [WARN] Fonchar - socketReq------------------ { username: 'adminsss', password: '123123' }
+[2020-08-18T07:12:51.072] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:12:59.726] [WARN] Fonchar - socketReq------------------ { username: 'adminsss', password: '123123' }
+[2020-08-18T07:13:21.078] [WARN] Fonchar - socketReq------------------ { username: 'adminsss', password: '123123' }
+[2020-08-18T07:15:33.595] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:16:59.137] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:17:10.153] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:18:56.119] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:19:12.901] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:19:43.814] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:20:39.109] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:20:48.322] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:22:03.563] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:23:31.714] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:23:37.267] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:23:48.732] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:25:41.605] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:25:48.115] [WARN] Fonchar - socketReq------------------ { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:26:27.141] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:26:32.451] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:30:35.026] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:30:45.936] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:32:14.866] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:32:21.520] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:34:07.836] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:40:14.421] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:40:21.811] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:42:46.115] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:42:52.038] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:44:16.306] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:44:51.479] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:47:34.489] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:47:46.176] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:49:14.594] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:49:20.925] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:52:22.153] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:52:26.532] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:55:49.352] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:55:54.892] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:56:56.909] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:57:00.725] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:59:11.319] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T07:59:17.898] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T07:59:53.714] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:00:01.048] [INFO] Fonchar - { username: 'fonchar', password: 'fonchar123456' }
+[2020-08-18T08:00:52.442] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:00:57.850] [INFO] Fonchar - 
+[2020-08-18T08:01:29.224] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:01:34.330] [INFO] Fonchar - 
+[2020-08-18T08:01:57.156] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:02:08.177] [INFO] Fonchar - 
+[2020-08-18T08:03:18.054] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:03:24.751] [INFO] Fonchar - 
+[2020-08-18T08:05:21.490] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:05:31.671] [INFO] Fonchar - 
+[2020-08-18T08:06:28.418] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:07:11.524] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:08:24.244] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:10:20.190] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:11:24.186] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:12:11.470] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:16:06.557] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:16:38.416] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:19:25.337] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:19:59.463] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:23:25.485] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:24:06.618] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:25:02.380] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:26:02.722] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:26:52.030] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:28:24.547] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:29:48.583] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:31:18.881] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:32:56.269] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:34:10.157] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:35:07.444] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:36:19.772] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:37:51.859] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:39:50.467] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:40:19.654] [INFO] Fonchar - Http listening port: 4000
+[2020-08-18T08:40:54.583] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T00:36:32.997] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T00:36:57.100] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:01:26.591] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:04:52.987] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:06:49.287] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:43:54.071] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:47:16.392] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:48:31.556] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:51:37.471] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T04:53:10.731] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:02:20.729] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:03:35.967] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:07:47.849] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:10:30.302] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:12:48.495] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:21:44.689] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:25:16.392] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:26:43.478] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:29:14.730] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T05:31:13.009] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:05:20.729] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:05:58.287] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:07:20.000] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:08:09.496] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:09:57.555] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:10:36.924] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:15:17.404] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:20:18.672] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:21:47.102] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:24:57.733] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T06:27:57.548] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T07:52:36.999] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T08:05:10.955] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T08:09:29.513] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T08:53:39.649] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T08:55:56.133] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T08:56:07.281] [ERROR] Fonchar - ERROR SQL: select * tb_article_classes where first_class = ?
+[2020-08-20T08:57:25.031] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T08:58:22.922] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:13:58.413] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:15:19.787] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:16:31.772] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:17:35.285] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:19:14.284] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:22:50.576] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:29:49.355] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:29:51.618] [ERROR] Fonchar - ERROR SQL: select * from tb_article_tags where name in (?)
+[2020-08-20T09:31:05.318] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:32:30.146] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:32:31.775] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values (?); select @@identity as article_md_id
+[2020-08-20T09:36:50.436] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:36:54.794] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values (?)
+[2020-08-20T09:39:22.208] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:39:24.621] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("?")
+[2020-08-20T09:40:23.762] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:40:27.377] [ERROR] Fonchar - !(arg1[0].length > 0)
+[2020-08-20T09:41:41.797] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:41:45.196] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("### GGGGG![192018.jpg](http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg)")
+[2020-08-20T09:42:28.596] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:42:33.101] [ERROR] Fonchar - !(arg1[0].length > 0)
+[2020-08-20T09:45:30.082] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:45:34.036] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("### GGGGG![192018.jpg](http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg)");select @@identity as article_md_id
+[2020-08-20T09:47:01.501] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:47:03.982] [ERROR] Fonchar - !(arg1[0].length > 0)
+[2020-08-20T09:48:50.835] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:48:55.967] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("### GGGGG![192018.jpg](http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg)")
+[2020-08-20T09:48:55.968] [ERROR] Fonchar - Error: ER_EMPTY_QUERY: Query was empty
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:154:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_EMPTY_QUERY',
+  errno: 1065,
+  sqlMessage: 'Query was empty',
+  sqlState: '42000',
+  index: 0,
+  sql: undefined
+}
+[2020-08-20T09:52:51.414] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:55:47.000] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T09:58:29.393] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T10:31:18.183] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T10:31:23.908] [ERROR] Fonchar - ERROR SQL: insert into tb_article_html (data) values ("<h3><a id="GGGGG192018jpghttplocalhost4000imagesupload_98481a44992a6325bfce03da142b5a10_192018jpg_0"></a>GGGGG<img src="http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg" alt="192018.jpg" /></h3>
+")
+[2020-08-20T10:36:13.406] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T10:38:03.013] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T10:43:59.998] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T10:46:48.336] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T10:54:17.823] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:22:51.329] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:23:18.833] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:26:53.012] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:28:54.244] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:31:59.538] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:32:39.772] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:34:22.053] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:35:21.552] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:44:49.163] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:48:12.062] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:54:59.405] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T11:56:37.823] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T12:16:25.106] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T12:21:16.600] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T12:22:50.696] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T12:25:34.706] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T12:27:40.414] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T13:51:55.247] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T13:52:01.813] [ERROR] Fonchar - ERROR SQL: select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u limit ? 
+[2020-08-20T13:52:01.814] [ERROR] Fonchar - [ 20 ]
+[2020-08-20T13:52:01.815] [ERROR] Fonchar - Error: ER_BAD_FIELD_ERROR: Unknown column 'u.author' in 'field list'
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'u.author' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u limit 20 '
+}
+[2020-08-20T13:52:01.818] [ERROR] Fonchar - Error: ER_BAD_FIELD_ERROR: Unknown column 'u.author' in 'field list'
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'u.author' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u limit 20 '
+}
+[2020-08-20T13:52:41.501] [INFO] Fonchar - Http listening port: 4000
+[2020-08-20T13:52:46.074] [ERROR] Fonchar - ERROR SQL: select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a and tb_user u limit ? 
+[2020-08-20T13:52:46.075] [ERROR] Fonchar - [ 20 ]
+[2020-08-20T13:52:46.076] [ERROR] Fonchar - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a and tb_user u limit 20 '
+}
+[2020-08-20T13:52:46.079] [ERROR] Fonchar - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a and tb_user u limit 20 '
+}
+[2020-08-20T13:56:56.949] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T16:38:00.097] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T16:38:22.740] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:06:48.279] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:06:59.929] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:06:59.930] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:06:59.931] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:06:59.936] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:06:59.956] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:06:59.958] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:06:59.959] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:06:59.963] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.666] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:07:16.667] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:07:16.667] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.669] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.674] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:07:16.675] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:07:16.675] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.677] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:09:10.180] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:23:48.990] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:31:34.181] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:32:17.477] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:36:15.121] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:37:24.934] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:39:32.616] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T18:40:26.033] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:36:23.322] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:37:32.117] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:46:27.428] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:47:37.697] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:51:03.630] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:54:01.908] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:54:36.035] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T19:56:12.587] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T20:00:56.661] [INFO] Fonchar - Http listening port: 4000
+[2020-08-25T20:43:10.658] [ERROR] Fonchar - ERROR SQL: select * from tb_article where id = ?
+[2020-08-25T20:44:15.289] [INFO] Fonchar - Http listening port: 4000
+[2020-08-26T00:49:02.276] [INFO] Fonchar - Http listening port: 4000
+[2020-08-26T00:50:52.110] [INFO] Fonchar - Http listening port: 4000
+[2020-08-26T00:51:56.368] [INFO] Fonchar - Http listening port: 4000
+[2020-08-26T00:53:34.297] [INFO] Fonchar - Http listening port: 4000
+[2020-08-26T00:56:45.470] [INFO] Fonchar - Http listening port: 4000

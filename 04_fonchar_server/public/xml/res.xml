@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <return>
+        <returnCode>ED0415</returnCode>
+        <returnDesc>Xml format parsing failed:poReference1=LIG19441731, storeId=LIGSZX2, sku=307141, D_EDI_02=1,
+            PoLineStatus=99, errorCode=XM04002, errorDescr=./dedi09 Value type error！ request Type:DECIMAL, but the
+            value is：null; storeId=LIGSZX2, sku=307141, D_EDI_02=2, PoLineStatus=99, errorCode=XM04002,
+            errorDescr=./dedi09 Value type error！ request Type:DECIMAL, but the value is：null;
+        </returnDesc>
+        <returnFlag>0</returnFlag>
+        <resultInfo/>
+    </return>
+</Response>

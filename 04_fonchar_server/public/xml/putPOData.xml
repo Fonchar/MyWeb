@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmldata>
+    <header>
+        <warehouseId>A001</warehouseId>
+        <customerId>LIGSZX2</customerId>
+        <poType>PR</poType>
+        <poStatus>99</poStatus>
+        <docNo>CM</docNo>
+        <poReferenceA>原始的入仓编号</poReferenceA>
+        <poReferenceB>处理后的入仓编号</poReferenceB>
+        <poReferenceC>处理后进仓编号，-后字符</poReferenceC>
+        <expectedArriveTime1>入仓时间</expectedArriveTime1>
+        <hedi01>入仓应收箱数，这个booking总的 应收箱数</hedi01>
+        <hedi02>入仓应收CBM，这个booking总的应收CBM</hedi02>
+        <hedi03>入仓应收KGS，这个booking总的应收weight</hedi03>
+        <hedi04>入仓应收PCS</hedi04>
+        <hedi05>入仓实收箱数</hedi05>
+        <hedi06>入仓实收CBM</hedi06>
+        <hedi07>入仓实收KGS</hedi07>
+        <hedi08>入仓实收PCS</hedi08>
+        <Supplier_Name>Vendor name 供应商名称</Supplier_Name>
+        <notes>实际订单的货主 [null]</notes>
+        <details>
+            <customerId>LIGSZX2</customerId>
+            <poLineStatus>99</ poLineStatus>
+            <sku>产品编码</sku>
+            <skuDescrC>产品描述</skuDescrC>
+            <orderedQty>入仓应收箱数</orderedQty>
+            <orderedQty_Each>入仓应收PCS</orderedQty_Each>
+            <receivedQty>实收箱数量</receivedQty>
+            <receivedQty_Each>实收EA数量,如果最小基本单位为箱，该数量等于箱数量</receivedQty_Each>
+            <totalPrice>[null]</totalPrice>
+            <uom>单位,’CS’或’EA’</uom>
+            <totalCubic>入仓应收CBM,每个item入仓应收CBM</totalCubic>
+            <totalGrossWeight>入仓应收KGS,每个item入仓应收weight</totalGrossWeight>
+            <dedi01>处理后的booking#</dedi01>
+            <dedi03>实收CBM,每个item实收CBM [null]</dedi03>
+            <dedi04>实收KG,每个item实收weight [null]</dedi04>
+            <dedi05>实收PCS,每个item实收PCS [null]</dedi05>
+            <dedi06>单位,’CS’或’EA’ [null]</dedi06>
+            <dedi07>货主PO [null]</dedi07>
+            <userDefine1>实收L [null]</userDefine1>
+            <userDefine2>实收W [null]</userDefine2>
+            <userDefine3>实收H [null]</userDefine3>
+            <userDefine4>SKU颜色 [null]</userDefine4>
+            <userDefine5>SKU尺码 [null]</userDefine5>
+        </details>
+    </header>
+</xmldata>

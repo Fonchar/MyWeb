@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmldata>
+    <header>
+        <warehouseId>WHCFS</warehouseId>
+        <customerId>LIGSZX2</customerId>
+        <orderType>CM</orderType>
+        <orderstatus>99</ orderstatus>
+        <docNo>SOWY20170515000002 上游主键,出仓作业指令单号?</docNo>
+        <soReferenceA>柜号</soReferenceA>
+        <orderTime>装柜时间 2017-01-12 10:21:21</orderTime>
+        <consigneeId>固定Ligentia</consigneeId>
+        <consigneeName>固定Ligentia</consigneeName>
+        <hedi01>出货箱数</hedi01>
+        <hedi02>出货CBM</hedi02>
+        <hedi03>出货KGS</hedi03>
+        <hedi04>出货PCS</hedi04>
+        <hedi05>柜型</hedi05>
+        <hedi07>封条号</hedi07>
+        <hedi08>柜VGM，空柜重 1.2</hedi08>
+        <hedi09>柜和货物总VGM 2.3</hedi09>
+        <route>船公司SO号</route>
+        <stop>Stop 站点 vessel</stop>
+        <userDefine1>voyage</userDefine1>
+        <userDefine2>SI cut-off，截补料时间</userDefine2>
+        <details>
+            <lineNo>行号 1</lineNo>
+            <LineStatus>99</LineStatus>
+            <sku>产品编码 29137435</sku>
+            <qtyOrdered>订货数 3</qtyOrdered>
+            <qtyOrdered_Each>订货数_EA，最小基本单位为箱时，该字段等于订货数 3</qtyOrdered_Each>
+            <qtyShipped>发货数 3</qtyShipped>
+            <qtyShipped_Each>发货数_EA，最小基本单位为箱时，该字段等于发货数 3</qtyShipped_Each>
+            <customerId>LIGSZX2</customerId>
+            <dedi04>处理后的booking#</dedi04>
+            <dedi05>PO</dedi05>
+            <dedi06>CFS Order Reference</dedi06>
+            <dedi08>发货CBM 12</dedi08>
+            <dedi11>原始入仓编号</dedi11>
+            <dedi12>处理后的入仓编号</dedi12>
+            <userDefine1>产品描述 [null]</userDefine1>
+            <userDefine2>发货KGS</userDefine2>
+        </details>
+    </header>
+</xmldata>

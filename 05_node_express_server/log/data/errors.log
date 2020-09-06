@@ -1,0 +1,405 @@
+[2020-08-16T03:45:50.906] [ERROR] Fonchar - Http listening port: 4000
+[2020-08-16T03:45:50.906] [FATAL] Fonchar - Http listening port: 4000
+[2020-08-20T08:56:07.281] [ERROR] Fonchar - ERROR SQL: select * tb_article_classes where first_class = ?
+[2020-08-20T09:29:51.618] [ERROR] Fonchar - ERROR SQL: select * from tb_article_tags where name in (?)
+[2020-08-20T09:32:31.775] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values (?); select @@identity as article_md_id
+[2020-08-20T09:36:54.794] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values (?)
+[2020-08-20T09:39:24.621] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("?")
+[2020-08-20T09:40:27.377] [ERROR] Fonchar - !(arg1[0].length > 0)
+[2020-08-20T09:41:45.196] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("### GGGGG![192018.jpg](http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg)")
+[2020-08-20T09:42:33.101] [ERROR] Fonchar - !(arg1[0].length > 0)
+[2020-08-20T09:45:34.036] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("### GGGGG![192018.jpg](http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg)");select @@identity as article_md_id
+[2020-08-20T09:47:03.982] [ERROR] Fonchar - !(arg1[0].length > 0)
+[2020-08-20T09:48:55.967] [ERROR] Fonchar - ERROR SQL: insert into tb_article_md (data) values ("### GGGGG![192018.jpg](http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg)")
+[2020-08-20T09:48:55.968] [ERROR] Fonchar - Error: ER_EMPTY_QUERY: Query was empty
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:154:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_EMPTY_QUERY',
+  errno: 1065,
+  sqlMessage: 'Query was empty',
+  sqlState: '42000',
+  index: 0,
+  sql: undefined
+}
+[2020-08-20T10:31:23.908] [ERROR] Fonchar - ERROR SQL: insert into tb_article_html (data) values ("<h3><a id="GGGGG192018jpghttplocalhost4000imagesupload_98481a44992a6325bfce03da142b5a10_192018jpg_0"></a>GGGGG<img src="http://localhost:4000/images/upload_98481a44992a6325bfce03da142b5a10_1920-18.jpg" alt="192018.jpg" /></h3>
+")
+[2020-08-20T13:52:01.813] [ERROR] Fonchar - ERROR SQL: select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u limit ? 
+[2020-08-20T13:52:01.814] [ERROR] Fonchar - [ 20 ]
+[2020-08-20T13:52:01.815] [ERROR] Fonchar - Error: ER_BAD_FIELD_ERROR: Unknown column 'u.author' in 'field list'
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'u.author' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u limit 20 '
+}
+[2020-08-20T13:52:01.818] [ERROR] Fonchar - Error: ER_BAD_FIELD_ERROR: Unknown column 'u.author' in 'field list'
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'u.author' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u limit 20 '
+}
+[2020-08-20T13:52:46.074] [ERROR] Fonchar - ERROR SQL: select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a and tb_user u limit ? 
+[2020-08-20T13:52:46.075] [ERROR] Fonchar - [ 20 ]
+[2020-08-20T13:52:46.076] [ERROR] Fonchar - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a and tb_user u limit 20 '
+}
+[2020-08-20T13:52:46.079] [ERROR] Fonchar - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_user u limit 20' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'select title, date, u.author, class_id, tags_id, types, state, md_id, html_id from tb_article a and tb_user u limit 20 '
+}
+[2020-08-25T18:06:59.929] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:06:59.930] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:06:59.931] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:06:59.936] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:06:59.956] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:06:59.958] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:06:59.959] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:06:59.963] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.666] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:07:16.667] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:07:16.667] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.669] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.674] [ERROR] Fonchar - ERROR SQL: select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit ? 
+[2020-08-25T18:07:16.675] [ERROR] Fonchar - [ 20 ]
+[2020-08-25T18:07:16.675] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T18:07:16.677] [ERROR] Fonchar - Error: ER_NON_UNIQ_ERROR: Column 'id' in field list is ambiguous
+    at Query.Sequence._packetToError (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    --------------------
+    at Protocol._enqueue (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\mysql\lib\Connection.js:198:25)
+    at excuteOneSql (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:140:14)
+    at replenish (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:440:21)
+    at D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:445:13
+    at eachOfLimit$1 (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:471:34)
+    at awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Object.eachOfSeries (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:658:16)
+    at Object.awaitable (D:\ProjectsMe\03_MyWeb\05_node_express_server\node_modules\async\dist\async.js:208:32)
+    at Query.<anonymous> (D:\ProjectsMe\03_MyWeb\05_node_express_server\lib\db\db.js:134:13) {
+  code: 'ER_NON_UNIQ_ERROR',
+  errno: 1052,
+  sqlMessage: "Column 'id' in field list is ambiguous",
+  sqlState: '23000',
+  index: 0,
+  sql: 'select id, title, date, u.name author, u.id uer_id, class_id, tags_id, types, state, md_id, html_id from tb_article a, tb_user u where u.id = a.author limit 20 '
+}
+[2020-08-25T20:43:10.658] [ERROR] Fonchar - ERROR SQL: select * from tb_article where id = ?

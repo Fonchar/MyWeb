@@ -1,0 +1,14 @@
+{
+  "name": "test-dist",
+  "version": "1.0.0",
+  "description": "测试vue的部署文件dist",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fonchar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
